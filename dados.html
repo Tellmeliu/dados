@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    #cuerpo{
+        background-color: cadetblue;
+    }
+
+    #titulo{
+        text-align: center;
+    }
+    #imagenes{
+        display: flex;
+    place-content: center;
+    
+    }
+    #dado1{
+        justify-content: flex-start;
+    }
+    #dado2{
+        justify-content: flex-end;
+    }
+
+    #inferior{
+
+      
+        display: flex;
+  justify-content: center;
+    }
+
+    #mensaje{
+        text-align: center;
+    }
+
+</style>    
+
+<body id="cuerpo">
+    <div id="titulo">
+        <br>
+    <h1>Juego de dados</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="imagenes">
+        <img id="dado1"src="dados_generico.jpg" alt="imagen1"> <br>
+        <div style="margin: 30px;"></div>
+        <img id="dado2" src="dados_generico.jpg" alt="imagen2">
+    </div>
+    <br>
+    <br>
+    <div id="inferior">
+        <button id="boton" class="btn btn-secondary">Juega</button>
+        
+    </div>
+    
+    
+    <br>
+    <br>
+
+    <p id="mensaje"></p>
+    
+
+
+    <script src="mojo.js"></script>
+</body>
+</html>
